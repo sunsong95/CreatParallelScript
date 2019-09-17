@@ -1,5 +1,5 @@
 # CreatParallelScript
-this R script will help you to create a parallel script.
+This R script will help you to create a parallel script.
 
 1.Requirements
 
