@@ -43,6 +43,8 @@ The parameter -l 3 will generate the work_001.sh including A,B,C, the work_002.s
 
 The parameter -m 2 will make the above work_001.sh and work_002.sh run parallel, work_003.sh will run automatically after work_001.sh and work_002.sh were completed. 
 
+The parameter -d will generate the segmented shell script under the specified folder and the log file can be used to determine whether the command line has been run correctly after run.sh was completed. 
+
 example:
 
 	Rscript /path_Rscript/parallel.R -i /path_script/test.sh -d /dir_split/job/ -l 3 -m 2 -o /path_output/run.sh -p    
